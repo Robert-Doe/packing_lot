@@ -1,0 +1,33 @@
+[
+  {
+    "quantity_kind": "Distance",
+    "name": "PLOTA2",
+    "id": "A2",
+    "unit": "Centimetre",
+    "sensor_kind": "DistanceDevice"
+  },
+  {
+    "quantity_kind": "Distance",
+    "value": {
+      "date_received": "2021-06-19T14:38:03Z",
+      "value": "0"
+    },
+    "name": "PARKINGLOT",
+    "id": "SPD",
+    "calib": {
+      "linear": {
+        "enabled": true,
+        "value_max": {
+          "sensor_value": 300,
+          "real_value": 0
+        },
+        "value_min": {
+          "sensor_value": 900,
+          "real_value": 100
+        }
+      }
+    },
+    "unit": "Centimetre",
+    "sensor_kind": "DistanceDevice"
+  }
+]

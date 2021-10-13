@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:fitsSystemWindows="true"
+    app:cardBackgroundColor="#F529FD05"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="3dp"
+    app:contentPadding="7dp">
+
+    <RelativeLayout
+        android:layout_width="156dp"
+        android:layout_height="80dp"
+        android:background="#00000000">
+
+        <TextView
+            android:id="@+id/tvPlotNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="50dp"
+            android:gravity="center"
+            android:text="9"
+            android:textColor="#040000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvBlock"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPlotNumber"
+            android:layout_alignStart="@+id/tvPlotNumber"
+            android:layout_alignEnd="@+id/tvPlotNumber"
+            android:layout_marginStart="-33dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="-37dp"
+            android:gravity="center"
+            android:text="BLOCK A"
+            android:textColor="#050000"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
